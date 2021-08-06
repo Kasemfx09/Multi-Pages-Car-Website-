@@ -1,0 +1,495 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: #fff;
+    background: red;
+}
+
+#menu-bar {
+    position: relative;
+}
+
+#menu-bar .menu-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(7, 7, 7, 0.5);
+}
+
+#menu-bar .menu-content .container .logo img {
+    padding: 30px 0 15px;
+    max-width: 320px;
+    height: auto;
+    padding-left: 65px;
+}
+
+#menu-bar .menu-content .container .main-menu nav ul {
+    padding-top: 2px;
+    padding: 30px 0 15px;
+}
+
+#menu-bar .menu-content .container .main-menu nav ul li a,
+span {
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#menu-bar .menu-content .container .main-menu nav ul li a span {
+    padding: 0 2px 0 33px;
+}
+
+#menu-bar .menu-content .container .banner-text h1 {
+    font-size: 35px;
+    color: #fff;
+    background-color: rgb(0, 0, 0, 0.4);
+    display: inline-block;
+    padding: 5px 25px 8px;
+    margin-top: 25%;
+}
+
+#menu-bar .menu-content .container .banner-text p {
+    font-size: 16px;
+    color: #edeff0;
+    font-weight: 300;
+    padding: 10px 0 40px;
+}
+
+#menu-bar .menu-content .container .banner-text .banner-dash {
+    border: 1px solid #fff;
+    width: 20px;
+    display: block;
+    margin: 25px 0 30px;
+}
+
+#menu-bar .menu-content .container .banner-text a button {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px 50px 9px;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+#welcome {
+    padding: 110px 0 0;
+    background-color: #f6f6f6;
+    margin-bottom: -75px;
+}
+
+#welcome .container .welcome-content h1 {
+    font-size: 35px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#welcome .container .welcome-content .welcome-dash {
+    border: 1px solid #000;
+    width: 20px;
+    display: block;
+    margin: 25px 0 45px;
+}
+
+#welcome .container .welcome-content p {
+    font-size: 13px;
+    color: #000;
+    font-weight: 300;
+}
+
+#welcome .container .welcome-content-image img {
+    max-width: 900px;
+    height: auto;
+    margin-left: -250px;
+}
+
+#another {
+    padding: 80px 0;
+    background-color: #282828;
+}
+
+#another .container .another-content h1 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#another .container .another-content .another-dash {
+    border: 1px solid #fff;
+    width: 20px;
+    display: block;
+    margin: 25px 0 45px;
+}
+
+#another .container .another-content p {
+    font-size: 13px;
+    color: #edeff0;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+#another .container .another-content a button {
+    font-size: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 7px 10px 5px;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+#another .container .another-content-image img {
+    padding-top: 90px;
+    margin-left: -22%;
+}
+
+#footer-copyright {
+    background-color: #ef4035;
+    padding: 20px 0 7px;
+    -webkit-box-shadow: 0px -2px 5px 0px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: 0px -2px 5px 0px rgba(255, 255, 255, 0.1);
+    box-shadow: 0px -2px 5px 0px rgba(255, 255, 255, 0.1);
+}
+
+#footer-copyright .container div p {
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/*Extra large Device*/
+
+@media (min-width: 1200px) {}
+
+
+/*large Device*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #menu-bar .menu-content .container .banner-text h1 {
+        font-size: 30px;
+        margin-top: 9%;
+    }
+    #menu-bar .menu-content .container .banner-text p {
+        font-size: 16px;
+        padding: 8px 0 30px;
+    }
+    #menu-bar .menu-content .container .banner-text .banner-dash {
+        margin: 20px 0 25px;
+    }
+    #welcome {
+        padding: 90px 0 0;
+        margin-bottom: -60px;
+    }
+    #welcome .container .welcome-content h1 {
+        font-size: 30px;
+    }
+    #welcome .container .welcome-content .welcome-dash {
+        margin: 20px 0 40px;
+    }
+    #welcome .container .welcome-content p {
+        font-size: 13px;
+        padding-bottom: 60px;
+    }
+    #welcome .container .welcome-content-image img {
+        max-width: 680px;
+        height: auto;
+        margin-left: -140px;
+    }
+    #another {
+        padding: 80px 0;
+    }
+    #another .container .another-content h1 {
+        font-size: 30px;
+    }
+    #another .container .another-content .another-dash {
+        margin: 20px 0 40px;
+    }
+    #another .container .another-content p {
+        font-size: 13px;
+        padding-bottom: 25px;
+    }
+    #another .container .another-content a button {
+        font-size: 10px;
+        padding: 7px 10px 5px;
+    }
+    #another .container .another-content-image img {
+        padding-top: 90px;
+        margin-left: -18%;
+    }
+}
+
+
+/*Medium Device*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #menu-bar .menu-content .container .main-menu nav ul li a,
+    span {
+        font-size: 14px;
+    }
+    #menu-bar .menu-content .container .main-menu nav ul li a span {
+        padding: 0 -1px 0 10px;
+    }
+    #menu-bar .menu-content .container .logo img {
+        max-width: 280px;
+        height: auto;
+        padding-left: 45px;
+    }
+    #menu-bar .menu-content .container .main-menu nav .nav .nav-item .nav-link {
+        padding: 0.5rem 12px;
+    }
+    #menu-bar .menu-content .container .banner-text h1 {
+        font-size: 25px;
+        margin-top: 6%;
+    }
+    #menu-bar .menu-content .container .banner-text p {
+        font-size: 14px;
+        padding: 6px 0 20px;
+    }
+    #menu-bar .menu-content .container .banner-text .banner-dash {
+        margin: 10px 0 20px;
+    }
+    #menu-bar .menu-content .container .banner-text a button {
+        font-size: 13px;
+        padding: 5px 35px 7px;
+    }
+    #welcome {
+        padding: 70px 0 0;
+        margin-bottom: -47px;
+    }
+    #welcome .container .welcome-content h1 {
+        font-size: 22px;
+    }
+    #welcome .container .welcome-content .welcome-dash {
+        margin: 14px 0 25px;
+    }
+    #welcome .container .welcome-content p {
+        font-size: 11px;
+        padding-bottom: 60px;
+    }
+    #welcome .container .welcome-content-image img {
+        max-width: 520px;
+        height: auto;
+        margin-left: -100px;
+    }
+    #another {
+        padding: 70px 0;
+    }
+    #another .container .another-content h1 {
+        font-size: 22px;
+    }
+    #another .container .another-content .another-dash {
+        margin: 14px 0 25px;
+    }
+    #another .container .another-content p {
+        font-size: 11px;
+        padding-bottom: 20px;
+    }
+    #another .container .another-content a button {
+        font-size: 9px;
+        padding: 6px 8px 4px;
+    }
+    #another .container .another-content-image img {
+        padding-top: 60px;
+        margin-left: -12%;
+    }
+}
+
+
+/* Small Device*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #menu-bar .menu-content .container .main-menu nav ul {
+        padding-top: 2px;
+        padding: 0px 0 15px;
+    }
+    #menu-bar .menu-content .container .main-menu nav ul li a,
+    span {
+        font-size: 11px;
+    }
+    #menu-bar .menu-content .container .logo img {
+        max-width: 200px;
+        height: auto;
+        padding-left: 25px;
+        padding: 15px 0 0px;
+    }
+    #menu-bar .menu-content .container .main-menu nav .nav .nav-item .nav-link {
+        padding: 5px 7px;
+    }
+    #menu-bar .menu-content .container .main-menu nav ul li a span {
+        padding: 0 2px 0 14px;
+    }
+    #menu-bar .menu-content .container .banner-text h1 {
+        font-size: 16px;
+        margin-top: 3%;
+        padding: 3px 16px 4px;
+    }
+    #menu-bar .menu-content .container .banner-text p {
+        font-size: 11px;
+        padding: 4px 0 7px;
+    }
+    #menu-bar .menu-content .container .banner-text .banner-dash {
+        margin: 4px 0 14px;
+    }
+    #menu-bar .menu-content .container .banner-text a button {
+        font-size: 11px;
+        padding: 3px 20px 5px;
+    }
+    #welcome {
+        padding: 50px 0 0;
+        margin-bottom: -90px;
+    }
+    #welcome .container .welcome-content h1 {
+        font-size: 17px;
+    }
+    #welcome .container .welcome-content .welcome-dash {
+        margin: 10px 0 10px;
+    }
+    #welcome .container .welcome-content p {
+        font-size: 9px;
+        padding-bottom: 110px;
+    }
+    #welcome .container .welcome-content p br {
+        display: none;
+    }
+    #welcome .container .welcome-content-image img {
+        max-width: 420px;
+        height: auto;
+        margin-left: -50px;
+    }
+    #another {
+        padding: 50px 0;
+    }
+    #another .container .another-content h1 {
+        font-size: 17px;
+    }
+    #another .container .another-content .another-dash {
+        margin: 10px 0 10px;
+    }
+    #another .container .another-content p {
+        font-size: 9px;
+        padding-bottom: 15px;
+    }
+    #another .container .another-content a button {
+        font-size: 6px;
+        padding: 5px 6px 3px;
+    }
+    #another .container .another-content-image img {
+        padding-top: 40px;
+        margin-left: -5%;
+    }
+    #footer-copyright {
+        padding: 12px 0 1px;
+    }
+    #footer-copyright .container div p {
+        font-size: 12px;
+    }
+}
+
+
+/*Extra Small Device*/
+
+@media (max-width: 575px) {
+    #menu-bar .menu-content .container .main-menu nav ul {
+        padding-top: 0;
+        padding: 0px 0 5px;
+    }
+    #menu-bar .menu-content .container .main-menu nav ul li a,
+    span {
+        font-size: 9px;
+    }
+    #menu-bar .menu-content .container .logo img {
+        max-width: 140px;
+        height: auto;
+        padding-left: 0;
+        padding: 10px 0 0px;
+    }
+    #menu-bar .menu-content .container .main-menu nav .nav .nav-item .nav-link {
+        padding: 5px 7px;
+    }
+    #menu-bar .menu-content .container .main-menu nav ul li a span {
+        padding: 0 2px 0 14px;
+    }
+    #menu-bar .menu-content .container .banner-text h1 {
+        font-size: 12px;
+        margin-top: 2%;
+        padding: 3px 16px 4px;
+    }
+    #menu-bar .menu-content .container .banner-text p {
+        font-size: 8px;
+        padding: 1px 0 2px;
+    }
+    #menu-bar .menu-content .container .banner-text .banner-dash {
+        margin: 1px 0 6px;
+    }
+    #menu-bar .menu-content .container .banner-text a button {
+        font-size: 7px;
+        padding: 2px 8px 3px;
+    }
+    #menu-bar {
+        padding-bottom: 40px;
+    }
+    #welcome {
+        padding: 30px 0 0;
+        margin-bottom: -110px;
+    }
+    #welcome .container .welcome-content h1 {
+        font-size: 15px;
+    }
+    #welcome .container .welcome-content .welcome-dash {
+        margin: 4px 0 7px;
+    }
+    #welcome .container .welcome-content p {
+        font-size: 9px;
+        padding-bottom: 0;
+    }
+    #welcome .container .welcome-content p br {
+        display: none;
+    }
+    #welcome .container .welcome-content-image img {
+        max-width: 100%;
+        height: auto;
+        margin-left: 0;
+        padding-bottom: 75px;
+    }
+    #another {
+        padding: 50px 0;
+    }
+    #another .container .another-content h1 {
+        font-size: 17px;
+    }
+    #another .container .another-content .another-dash {
+        margin: 10px 0 10px;
+    }
+    #another .container .another-content p {
+        font-size: 9px;
+        padding-bottom: 15px;
+    }
+    #another .container .another-content p br {
+        display: none;
+    }
+    #another .container .another-content a button {
+        font-size: 6px;
+        padding: 5px 6px 3px;
+    }
+    #another .container .another-content-image img {
+        padding-top: 40px;
+        margin-left: 0;
+    }
+    #footer-copyright {
+        padding: 10px 0 1px;
+    }
+    #footer-copyright .container div p {
+        font-size: 10px;
+    }
+}
